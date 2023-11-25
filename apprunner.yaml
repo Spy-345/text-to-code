@@ -1,0 +1,10 @@
+version: 1.0
+runtime: nodejs
+build:
+  commands:
+  build:
+    - npm install
+    - npm build:react
+
+run:
+  command: npm start
