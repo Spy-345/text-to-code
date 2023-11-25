@@ -4,7 +4,7 @@ build:
   commands:
     build:
       - npm install
-      - npm build:react
+      - npm run build:react
   env:
     - name: CONNECTION_STRING
       value: "mongodb+srv://spy-admin:spy-admin@cluster0.hltplup.mongodb.net/texttocodeDB?retryWrites=true&w=majority"
