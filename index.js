@@ -7,7 +7,7 @@ const { config } = require("dotenv");
 config();
 app.use(cors()); //To allow the cross origin http requests
 app.use(express.json()); // To parse the Requests to this express app
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 const path = require("path");
 
